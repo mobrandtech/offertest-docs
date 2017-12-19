@@ -19,7 +19,6 @@ Non-async requests will be limited to 50 concurrent requests. Async tests will b
 ### Sync Request
 `` curl -i -H "Authorization: Bearer {APIKEY}" -X POST -d '{"userid":"{YOURUSERID}", "country":"us", "url":"http://www.google.com/","platform": "android" }' -H "Content-type: application/json" https://api.offertest.net/offertest ``
 
-
 ## Authorization Header
 
 ``Authorization: Bearer {APIKEY}``
@@ -37,7 +36,7 @@ Non-async requests will be limited to 50 concurrent requests. Async tests will b
 
 ## Response Object
 
-This object will be sent as POST to the callback you specified in the request.
+Response for Sync request. For the Async Request this object will be sent as POST to the callback you specified in the request.
 
 `` {"id":"d6d880e6-09b5-48f5-9e91-74f4cd9670dd","urls":[{"url":"http://www.google.com/","type":"INITIAL","loadTime":161},{"url":"http://www.google.nl/?gfe_rd=cr&dcr=0&ei=JgQ5Ws3DAumE8QeuzqiIDw","type":"HTTP_3XX","loadTime":20134}],"bundleIdMatch":false,"nRedir":2} ``
 
