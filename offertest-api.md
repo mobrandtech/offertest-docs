@@ -14,5 +14,5 @@
 | userid        | Your publisherid.  |
 | country       | An ISO country code      |
 | url | The URL you want to test      |
-| platform | The platform you want to test: `àndroid``or``ios``|
+| platform | The platform you want to test: ``android``or``ios``|
 
