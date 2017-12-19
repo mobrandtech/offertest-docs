@@ -26,7 +26,7 @@ Non-async requests will be limited to 50 concurrent requests. Async tests will b
 ## JSON Options
 
 | Field         | Value         |
-| ------------- |:-------------:|
+| ------------- |-------------|
 | userid        | Your publisherid.  |
 | country       | An ISO country code      |
 | url | The URL you want to test      |
@@ -36,7 +36,7 @@ Non-async requests will be limited to 50 concurrent requests. Async tests will b
 
 ## Response Object
 
-Response for Sync request. For the Async Request this object will be sent as POST to the callback you specified in the request.
+Response for Sync Request. For the Async Request this object will be sent as POST to the callback you specified in the request.
 
 `` {"id":"d6d880e6-09b5-48f5-9e91-74f4cd9670dd","urls":[{"url":"http://www.google.com/","type":"INITIAL","loadTime":161},{"url":"http://www.google.nl/?gfe_rd=cr&dcr=0&ei=JgQ5Ws3DAumE8QeuzqiIDw","type":"HTTP_3XX","loadTime":20134}],"bundleIdMatch":false,"nRedir":2} ``
 
