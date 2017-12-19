@@ -4,16 +4,21 @@
 
 Async flag means we will do the test and then send the result to the callback you passed.
 
-Non-async requests will be limited to 50 concurrent requests.
+Non-async requests will be limited to 50 concurrent requests. Async tests will be limited only by your available credit.
 
 
 ### Example Body
 
-``{"userid":"YOURUSERID", "country":"us", "url":"http://www.google.pt/", "platform": "android", "callback":"http://api.offertest.net/mcat/h_rZwbUlTTC1RGeVHTzXQg/postbackecho"}``
+``{"userid":"YOURUSERID", "country":"us", "url":"http://www.google.pt/", "platform": "android", "callback":"http://{YOURAPIURL}/offertest/{YOURCAMPAIGNID}/result"}``
 
 ## Example cURL request
 
-`` curl -i -H "Authorization: Bearer {YOUR API KEY}" -X POST -d '{"userid":"YOURID", "country":"us", "url":"http://www.google.com/","platform": "android", "callback":"http://{YOURAPIURL}/offertest/{YOURCAMPAIGNID}/result"}' -H "Content-type: application/json" https://api.offertest.net/offertest  ``
+### Async Request
+`` curl -i -H "Authorization: Bearer {YOUR API KEY}" -X POST -d '{"userid":"YOURID", "country":"us", "url":"http://www.google.com/","platform": "android", "callback":"http://{YOURAPIURL}/offertest/{YOURCAMPAIGNID}/result"}' -H "Content-type: application/json" https://api.offertest.net/offertest?async=true ``
+
+### Sync Request
+`` curl -i -H "Authorization: Bearer {YOUR API KEY}" -X POST -d '{"userid":"YOURID", "country":"us", "url":"http://www.google.com/","platform": "android" }' -H "Content-type: application/json" https://api.offertest.net/offertest ``
+
 
 ## Authorization Header
 
@@ -28,6 +33,7 @@ Non-async requests will be limited to 50 concurrent requests.
 | url | The URL you want to test      |
 | platform | The platform you want to test: ``android``or``ios``|
 | callback | This field MUST be passed when using async request|
+| expectedBundleId | The expected bundleId for iTunes or Play Store app verifications|
 
 ## Response Object
 
