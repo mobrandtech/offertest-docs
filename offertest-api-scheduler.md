@@ -91,6 +91,18 @@
     }
   ```
 
+  **JSON Fields Description**
+  
+  | Field         | Description |
+  | ------------- |-------------|
+  | url        | Click URL  |
+  | label       | It is anything you want to add to help you identify this campaign. It will be shown on emails. |
+  | platform | The platform you want to test: ``ANDROID``or``IOS`` or ``DESKTOP`` |
+  | postback | This field is OPTIONAL |
+  | expectedResult | The expected result - landing page domain or in case of CPI the expected bundleid. This is OPTIONAL |
+  | country | An ISO country where the test / crawl will be run |
+  | features | Features you want to include on the test |
+
 * **Success Response:**
   
   * **Code:** 204 <br />
@@ -106,3 +118,13 @@
   * **Code:** 400 BADREQUEST <br />
     **Content:** NONE
 
+* **Test Features**
+
+  | Features          | Description |
+  | ------------- |-------------|
+  | VIRUS_SCAN | For each url in the chain from the beginning to the end will be check for viruses/malware. |
+  | POSTBACK_ON_CHANGE | Postbacks and Emails will only be sent in case of a change on the campaign output test |
+  | STATUS_CODE_CHECK | Checks if the last link / landing page is a dead link (ex: 4xx, 5xx, ... ) |
+  | AUTO_DL | Checks if the last link / landing page auto downloads  |
+  | LAST_DOMAIN_MATCH | Given an expectedResult checks if the last link matches the domain  |
+  | BUNDLE_ID | In case of CPI offer test and given an expectedResult runs for iTunes or Play Store app verifications  |
