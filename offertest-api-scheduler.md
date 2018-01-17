@@ -32,11 +32,11 @@
 
   * **ContentType:** application/json <br />
 
-  ```
+  ```json
   [
     {
       "url": "www.google.com",
-      "label: "ANY_LABEL",
+      "label": "ANY_LABEL",
       "platform": "DESKTOP",
       "postback": "http://example.com/postback?id=exampleid",
       "period": 30,
@@ -52,7 +52,7 @@
     },
     {
       "url": "www.google.com",
-      "label: "ANY_LABEL",
+      "label": "ANY_LABEL",
       "platform": "ANDROID",
       "postback": "http://example.com/postback?id=exampleid2",
       "period": 60,
@@ -72,10 +72,10 @@
 
   * **ContentType:** application/json <br />
 
-  ```
+  ```json
     {
       "url": "www.google.com",
-      "label: "ANY_LABEL",
+      "label": "ANY_LABEL",
       "platform": "ANDROID",
       "postback": "http://example.com/postback?id=exampleid2",
       "period": 90,
