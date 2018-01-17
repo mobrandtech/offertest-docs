@@ -72,7 +72,7 @@
 
   * **ContentType:** application/json <br />
 
-  ```json
+  ```
     {
       "url": "www.google.com",
       "label: "ANY_LABEL",
