@@ -4,15 +4,15 @@
 
 * **URL**
 
-  /:userid/scheduler/campaigns/:campaignid
+  /offertest/:userid/scheduler/campaigns/:campaignid
 
 * **Method:**
   
-  **/:apikey/scheduler/campaign**
+  **/offertest/:userid/scheduler/campaign**
 
   `GET` | `POST` 
 
-  **/:userid/scheduler/campaign/:campaignid**
+  **/offertest/:userid/scheduler/campaign/:campaignid**
 
   `GET` | `DELETE` | `PUT`
   
@@ -28,7 +28,7 @@
 
 * **Data Params**
   
-  **/:apikey/scheduler/campaign**
+  **/offertest/:userid/scheduler/campaign**
 
   * **ContentType:** application/json <br />
 
@@ -68,7 +68,7 @@
     },
   ]
   ```
-  **/:apikey/scheduler/campaign/:campaignid**
+  **/offertest/:userid/scheduler/campaign/:campaignid**
 
   * **ContentType:** application/json <br />
 
@@ -102,6 +102,7 @@
   | expectedResult | The expected result - landing page domain or in case of CPI the expected bundleid. This is OPTIONAL |
   | country | An ISO country where the test / crawl will be run |
   | features | Features you want to include on the test |
+  | period | Periodicity of the test in minutes. (30 minutes, 60 minutes and 90 minutes ) |
 
 * **Success Response:**
   
@@ -128,3 +129,5 @@
   | AUTO_DL | Checks if the last link / landing page auto downloads  |
   | LAST_DOMAIN_MATCH | Given an expectedResult checks if the last link matches the domain  |
   | BUNDLE_ID | In case of CPI offer test and given an expectedResult runs for iTunes or Play Store app verifications  |
+  | SEND_MAIL | To send mail report after the test is done. The mail address will be the one defined on the Mobrand's console users profile  |
+  | SEND_POSTBACK | The test result will be postbacked at the specified postback url  |
