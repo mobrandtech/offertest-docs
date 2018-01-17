@@ -32,7 +32,7 @@
 
   * **ContentType:** application/json <br />
 
-  ```json
+  ```
   [
     {
       "url": "www.google.com",
