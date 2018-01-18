@@ -15,6 +15,10 @@
   **/offertest/:userid/scheduler/campaign/:campaignid**
 
   `GET` | `DELETE` | `PUT`
+
+  **/offertest/:userid/scheduler/campaign/label/:label**
+
+  `GET`
   
 *  **URL Params**
 
@@ -25,6 +29,10 @@
    **Optional:**
  
    `campaignid=[alphanumeric]`
+
+   **Optional:**
+ 
+   `label=[alphanumeric]`
 
 * **Data Params**
   
