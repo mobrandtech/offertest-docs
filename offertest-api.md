@@ -50,4 +50,4 @@ Response for Sync Request. For the Async Request this object will be sent as POS
 
 ## Free tests
 
-If you need courtesy tests in order to integrate with us please use the following promocode ´´´INTEGRATION´´´.
+If you need courtesy tests in order to integrate with us please use the following promocode ```INTEGRATION```.
