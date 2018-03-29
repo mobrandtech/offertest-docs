@@ -47,3 +47,7 @@ Response for Sync Request. For the Async Request this object will be sent as POS
 |type|HTTP Redirection type|
 |bundleIdMatch|true if the expectedBundleId matches the final URL bundle id (Works only for iTunes or Play Store)
 |nRedir| The number of redirects|
+
+## Free tests
+
+If you need courtesy tests in order to integrate with us please use the following promocode: ```INTEGRATION```.
