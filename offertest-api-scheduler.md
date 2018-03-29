@@ -10,7 +10,7 @@
   
   **/offertest/:userid/scheduler/campaign**
 
-  `GET` | `POST` 
+  `GET` | `POST` | `DELETE`
 
   **/offertest/:userid/scheduler/campaign/:campaignid**
 
@@ -110,7 +110,7 @@
   | expectedResult | The expected result - landing page domain or in case of CPI the expected bundleid. This is OPTIONAL |
   | country | An ISO country where the test / crawl will be run |
   | features | Features you want to include on the test |
-  | period | Periodicity of the test in minutes. (30 minutes, 60 minutes and 90 minutes ) |
+  | period | Periodicity of the test in minutes. (30 minutes, 60 minutes, 90 minutes, 360 and 720 minutes ) |
 
 * **Success Response:**
   
