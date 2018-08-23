@@ -1,4 +1,4 @@
-# Offertest API
+# OfferTest API
 
 ### Context
  * This documentation is intended to help you integrate Mobrand's OfferTest tool.
@@ -12,13 +12,6 @@
  
 ###### Note: If you are an Account Manager and you are reading this, please do not be scared and pass it to a tech guy as they will for sure understand it.
 
-``https://api.offertest.net/offertest[?async=true]``
-
-Async flag means we will do the test and then send the result to the callback you passed.
-
-Non-async requests will be limited to 50 concurrent requests. Async tests will be limited only by your available credit.
-
-
 ### Example Body
 
 ``{"userid":"{YOURUSERID}", "country":"us", "url":"http://www.google.pt/", "platform": "android", "callback":"http://{YOURAPIURL}/offertest/{YOURCAMPAIGNID}/result"}``
@@ -26,6 +19,8 @@ Non-async requests will be limited to 50 concurrent requests. Async tests will b
 ## Example cURL request
 
 ### Async Request
+``https://api.offertest.net/offertest[?async=true]``
+
 `` curl -i -H "Authorization: Bearer {APIKEY}" -X POST -d '{"userid":"{YOURUSERID}", "country":"us", "url":"http://www.google.com/","platform": "android", "callback":"http://{YOURAPIURL}/offertest/{YOURCAMPAIGNID}/result"}' -H "Content-type: application/json" https://api.offertest.net/offertest?async=true ``
 
 ### Sync Request
