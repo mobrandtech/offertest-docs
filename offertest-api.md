@@ -10,7 +10,7 @@
 | Good for bulk testing.       | Good for small scale testing.|
 | Limited only by your available credit.| Limited to 50 concurrent requests.|
  
-Note: If you are an Account Manager and you are reading this, please do not be scared and pass it to a tech guy as they will for sure understand it.
+###### Note: If you are an Account Manager and you are reading this, please do not be scared and pass it to a tech guy as they will for sure understand it.
 
 ``https://api.offertest.net/offertest[?async=true]``
 
