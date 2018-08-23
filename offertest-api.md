@@ -1,6 +1,6 @@
 # Offertest API
 
-# Context
+### Context
  * This documentation is intended to help you integrate Mobrand's OfferTest tool.
  * You will find instructions on how to integrate Mobrand's OfferTest tool in Async and Sync request modes.
  * Please note that requests can take up to two minutes.
