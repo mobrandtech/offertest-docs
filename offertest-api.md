@@ -3,7 +3,12 @@
 ### Context
  * This documentation is intended to help you integrate Mobrand's OfferTest tool.
  * You will find instructions on how to integrate Mobrand's OfferTest tool in Async and Sync request modes.
- * Please note that requests can take up to two minutes.
+ 
+| Async         | Sync        |
+| ------------- |-------------|
+| Requests are queue based and results are sent to the callback.| Resquests can take up to 2 minutes before time out.|
+| Good for bulk testing.       | Good for small scale testing.|
+| Limited only by your available credit.| Limited to 50 concurrent requests.|
  
 Note: If you are an Account Manager and you are reading this, please do not be scared and pass it to a tech guy as they will for sure understand it.
 
