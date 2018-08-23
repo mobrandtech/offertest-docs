@@ -1,3 +1,10 @@
+# Context
+ * This documentation is intended to help you integrate Mobrand's OfferTest tool.
+ * You will find instructions on how to integrate Mobrand's OfferTest tool in Async and Sync request modes.
+ * Please note that requests can take up to two minutes.
+ 
+Note: If you are an Account Manager and you are reading this, please do not be scared and pass it to a tech guy as they will for sure understand it.
+
 # Offertest API
 
 ``https://api.offertest.net/offertest[?async=true]``
