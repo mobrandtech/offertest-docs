@@ -46,12 +46,12 @@ Each request, depending on the features or target you enable will consume credit
 | userid        | Your publisherid.  |
 | country       | An ISO country code      |
 | url | The URL you want to test      |
-| platform | The platform you want to test: ``android``or``ios``|
-| platformVersion | The platform version you want to test according to the list below|
+| platform | The platform you want to test. Possible values: ``android``or``ios``|
+| platformVersion | The platform version you want to test according to the list below. Example: ``10`` |
 | callback | This field MUST be passed when using async request|
 | expectedBundleId | The expected bundleId for iTunes or Play Store app verifications|
-| mobile | Request through a mobile carrier **(Consumes 10 credits)**|
-| carrier | Select one pair of the table below (you must select the corresponding country). If ``carrier`` is omited the exit mobile carrier will be automatically selected|
+| mobile | Request through a mobile carrier **(Consumes 10 credits)**. Possible values: ``true`` or ``false``.|
+| carrier | Select one pair of the table below (you must select the corresponding country). If ``carrier`` is omited the exit mobile carrier will be automatically selected. Example: ``att`` |
 
 
 
