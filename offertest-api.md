@@ -51,7 +51,7 @@ Each request, depending on the features or target you enable will consume credit
 | callback | This field MUST be passed when using async request|
 | expectedBundleId | The expected bundleId for iTunes or Play Store app verifications|
 | mobile | Request through a mobile carrier **(Consumes 10 credits)**. Possible values: ``true`` or ``false``.|
-| carrier | Select one pair of the table below (you must select the corresponding country). If ``carrier`` is omited the exit mobile carrier will be automatically selected. Example: ``att`` |
+| carrier | Select one pair of the table below (it should match the given country or it will be ignored). If ``carrier`` is omited the exit mobile carrier will be automatically selected for the country. Example: ``att`` |
 
 
 
