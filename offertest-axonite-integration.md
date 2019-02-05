@@ -27,6 +27,6 @@
  * Go to Mobrand's console and on the left menu to go - "OFFERTEST" -> "TOOLS" -> "AXONITE INTEGRATION"
  * Insert the token there as shown on the image below
 
- ![alt text](http://static.mobrand.net/offertest_screenshot_axonite.png "")
+ ![alt text](http://static.mobrand.net/axonite_integration_offertest.png "")
 
 
