@@ -68,7 +68,6 @@ If you need a carrier that is not in the list please send an email to support@mo
 | telefonica| VE|
 | telefonica| DE|
 | telefonica| GT|
-| telefonica| GT|
 | telefonica| PA|
 | telefonica| UY|
 | telefonica| AR|
