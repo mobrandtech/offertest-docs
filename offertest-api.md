@@ -54,7 +54,7 @@ Each request, depending on the features or target you enable will consume credit
 | expectedBundleId | The expected bundleId for iTunes or Play Store app verifications **(Optional)**. |
 | mobile | Request through a mobile carrier **(Consumes 10 credits)**. Possible values: ``true`` or ``false`` **(Optional)**. |
 | carrier | Select one pair of the table below (it should match the given country or it will be ignored) **(Optional)**. If ``carrier`` is omited the exit mobile carrier will be automatically selected for the country. Example: ``att``. |
-| city | Select one city from this [csv](https://raw.githubusercontent.com/mobrandtech/offertest-docs/master/cities.csv) (it should match the given country or it will be ignored) **(Optional)** **(Consumes 10 Credits)**. If ``city`` is omited the exit city will be automatically selected for the country. Example: ``lasvegas``. |
+| city | Select one city from this [csv](https://raw.githubusercontent.com/mobrandtech/offertest-docs/cities/cities.csv) (it should match the given country or it will be ignored) **(Optional)** **(Consumes 10 Credits)**. If ``city`` is omited the exit city will be automatically selected for the country. Example: ``lasvegas``. |
 
 
 
