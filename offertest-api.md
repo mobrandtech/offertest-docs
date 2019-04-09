@@ -38,6 +38,8 @@ Each request, depending on the features or target you enable will consume credit
 | - | - |
 | Default | 1 Credit |
 | Mobile | 10 credits |
+| City | 10 credits |
+| City + Mobile | 20 credits |
 
 ## JSON Options
 
@@ -51,8 +53,9 @@ Each request, depending on the features or target you enable will consume credit
 | platformVersion | The platform version you want to test according to the list below **(Optional)**. Example: ``10``. |
 | callback | This field MUST be passed when using async request. |
 | expectedBundleId | The expected bundleId for iTunes or Play Store app verifications **(Optional)**. |
-| mobile | Request through a mobile carrier **(Consumes 10 credits)**. Possible values: ``true`` or ``false`` **(Optional)**. |
+| mobile | Request through a mobile carrier. Possible values: ``true`` or ``false`` **(Optional)** **(Consumes Additional Credits)**. |
 | carrier | Select one pair of the table below (it should match the given country or it will be ignored) **(Optional)**. If ``carrier`` is omited the exit mobile carrier will be automatically selected for the country. Example: ``att``. |
+| city | Select one city value from this file [csv](https://raw.githubusercontent.com/mobrandtech/offertest-docs/cities/cities.csv) (it should match the given country or an error will return) **(Optional)** **(Consumes Additional Credits)**. If ``city`` is omited the exit city will be automatically selected for the country. Example: ``lasvegas``. |
 
 
 
