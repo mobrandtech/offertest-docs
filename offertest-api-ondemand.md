@@ -62,47 +62,48 @@
   | fields | Adds parameters so the system can communicate with your platform API |
 
   **Fields Description**
+
   | Field         | Description |
   | ------------- |-------------|
-  | apiDomain        | In case you are using AFFISE insert your api domain |
-  | apiToken        | apiToken so we can fetch your campaigns  |
+  | apiDomain     | In case you are using AFFISE insert your api domain |
+  | apiToken      | apiToken so we can fetch your campaigns  |
 
 * **Success Response:**
   
   * **Code:** 200 <br />
-    **Content:** 
+    **Content:** <br />
 
   ```json
-{
-    "platform": "3",
-    "platformId": 4,
-    "platformOffers": [
-        {
-            "id": "59fd7906-0780-425a-8f3f-0d41e584807b",
-            "name": "dgt - recargapay - br - cpr",
-            "url": "http://example.com",
-            "country": "br",
-            "platform": "ANDROID",
-            "iconUrl": ""
-        },
-        {
-            "id": "68ff1f8f-24a1-4148-9bed-7f7f5c93bb70",
-            "name": "dgt - recargapay - br - ios - cpr",
-            "url": "http://your_tracking_url.com",
-            "country": "br",
-            "platform": "IPHONE",
-            "iconUrl": ""
-        },
-        {
-            "id": "142a0f2e-05d8-4d69-8ef6-129a20b73d25",
-            "name": "BR - UBER_Android_CPT (live) (Must Pass Names)",
-            "url": "http://your_tracking_url.com",
-            "country": "br",
-            "platform": "ANDROID",
-            "iconUrl": ""
-        }
-    ]
-}
+    {
+        "platform": "3",
+        "platformId": 4,
+        "platformOffers": [
+            {
+                "id": "59fd7906-0780-425a-8f3f-0d41e584807b",
+                "name": "dgt - recargapay - br - cpr",
+                "url": "http://example.com",
+                "country": "br",
+                "platform": "ANDROID",
+                "iconUrl": ""
+            },
+            {
+                "id": "68ff1f8f-24a1-4148-9bed-7f7f5c93bb70",
+                "name": "dgt - recargapay - br - ios - cpr",
+                "url": "http://your_tracking_url.com",
+                "country": "br",
+                "platform": "IPHONE",
+                "iconUrl": ""
+            },
+            {
+                "id": "142a0f2e-05d8-4d69-8ef6-129a20b73d25",
+                "name": "BR - UBER_Android_CPT (live) (Must Pass Names)",
+                "url": "http://your_tracking_url.com",
+                "country": "br",
+                "platform": "ANDROID",
+                "iconUrl": ""
+            }
+        ]
+    }
 
   ```
  
