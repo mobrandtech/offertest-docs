@@ -10,7 +10,7 @@
   
   /:userid/api/platforms/ondemand/:platformid
 
-  `PUT`
+  `POST`
 
 *  **URL Params**
 
