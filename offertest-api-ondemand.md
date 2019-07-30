@@ -34,7 +34,9 @@
   ```json
     {
         "features": [
-            "BATCH_MAIL"
+            "BATCH_MAIL",
+            "ONLY_ONE_COUNTRY",
+            "SEND_POSTBACK"
         ],
         "countries": ["br","us","gb", "GEOS"],
         "offerIds": [],
@@ -46,6 +48,10 @@
             {
                 "name": "apiToken",
                 "value": "[YOUR_API_TOKEN]"
+            },
+            {
+                "name": "redirectSizeLimit",
+                "value": "10"
             }
         ]
     }
@@ -66,7 +72,8 @@
   | Field         | Description |
   | ------------- |-------------|
   | apiDomain     | In case you are using AFFISE insert your api domain |
-  | apiToken      | apiToken so we can fetch your campaigns  |
+  | apiToken      | API token used to fetch your campaigns  |
+  | redirectSizeLimit      | Adds a limit to the redirect size of a campaign, such that for instance if 10, all campaigns that has a redirect chain of 11 hops or more, will be considered not working, and that will be reflected on the report and also on postback  |
 
 * **Success Response:**
   
@@ -74,36 +81,41 @@
     **Content:** <br />
 
   ```json
-    {
-        "platform": "3",
-        "platformId": 4,
-        "platformOffers": [
-            {
-                "id": "59fd7906-0780-425a-8f3f-0d41e584807b",
-                "name": "dgt - recargapay - br - cpr",
-                "url": "http://example.com",
-                "country": "br",
-                "platform": "ANDROID",
-                "iconUrl": ""
-            },
-            {
-                "id": "68ff1f8f-24a1-4148-9bed-7f7f5c93bb70",
-                "name": "dgt - recargapay - br - ios - cpr",
-                "url": "http://your_tracking_url.com",
-                "country": "br",
-                "platform": "IPHONE",
-                "iconUrl": ""
-            },
-            {
-                "id": "142a0f2e-05d8-4d69-8ef6-129a20b73d25",
-                "name": "BR - UBER_Android_CPT (live) (Must Pass Names)",
-                "url": "http://your_tracking_url.com",
-                "country": "br",
-                "platform": "ANDROID",
-                "iconUrl": ""
-            }
-        ]
-    }
+{
+    "platform": "HasOffers Integration",
+    "platformId": 5,
+    "numberOfOffers": 3,
+    "numberUniqueOffers": 3,
+    "platformOffers": [
+        {
+            "id": "86708035-0d40-42f5-b807-9f938023b723",
+            "offerId": "11111111",
+            "name": "Amazon India Online Shopping and Payments",
+            "url": "http://www.track.example.com/aff_c?offer_id=11111111&aff_id=3026",
+            "country": "ae",
+            "platform": "ANDROID",
+            "iconUrl": ""
+        },
+        {
+            "id": "95f05f7b-7df4-465e-a7da-c7062c5231a1",
+            "offerId": "222222",
+            "name": "Dostavista_Ru_iOS_Non-Incent_CPA",
+            "url": "http://www.track.example.com/aff_c?offer_id=222222&aff_id=3026",
+            "country": "ru",
+            "platform": "IPHONE",
+            "iconUrl": ""
+        },
+        {
+            "id": "8a3934f3-8cc5-4079-801a-d89940b6488b",
+            "offerId": "33333",
+            "name": "NNNOW - Online Fashion Shopping App",
+            "url": "http://www.track.example.com/aff_c?offer_id=33333&aff_id=3026",
+            "country": "in",
+            "platform": "ANDROID",
+            "iconUrl": ""
+        }
+    ]
+}
 
   ```
  
@@ -121,8 +133,8 @@
 
   | ID          | Platform |
   | ------------- |-------------|
-  | 2 | AXONITE |
-  | 3 | AFFISE |
+  | 1 | AXONITE |
+  | 4 | AFFISE |
 
 * **Test Features**
 
@@ -135,5 +147,6 @@
   | LAST_DOMAIN_MATCH | Given an expectedResult checks if the last link matches the domain  |
   | BUNDLE_ID | In case of CPI offer test and given an expectedResult runs for iTunes or Play Store app verifications  |
   | SEND_MAIL | To send mail report after the test is done. The mail address will be the one defined on the Mobrand's console users profile  |
-  | SEND_POSTBACK | The test result will be postbacked at the specified postback url  |
+  | SEND_POSTBACK | The test result will be postbacked at the specified postback url, or in Affise's case it will auto pause |
   | BATCH_MAIL | Send a digest mail report after your batch test is done  |
+  | ONLY_ONE_COUNTRY | On campaign ids with multiple countries, it will only test one country  |
