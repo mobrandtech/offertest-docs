@@ -155,5 +155,5 @@
   | Features          | Description |
   | ------------- |-------------|
   | SEND_POSTBACK | Auto pause campaigns (Only for Affise / Axonite) |
-  | BATCH_MAIL | Send a digest mail report after your batch test is done  |
-  | ONLY_ONE_COUNTRY | On campaign ids with multiple countries, it will only test one country  |
+  | BATCH_MAIL | Send a digest mail report after your batch test is done (All platforms) |
+  | ONLY_ONE_COUNTRY | On campaign ids with multiple countries, it will only test one country (All platforms)  |
