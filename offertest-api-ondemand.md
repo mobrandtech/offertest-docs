@@ -116,7 +116,6 @@
         }
     ]
 }
-
   ```
  
 * **Error Response:**
