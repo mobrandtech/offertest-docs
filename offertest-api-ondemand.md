@@ -80,7 +80,7 @@
 
 
   | Platform / Fields | apiDomain | apiToken | networkId |
-  | ------------- |-------------|
+  | - | - | - | - |
   | AXONITE         | |✓ | | 
   | AFFISE          |✓ |✓ || 
   | HASOFFERS       | |✓ |✓ | 
