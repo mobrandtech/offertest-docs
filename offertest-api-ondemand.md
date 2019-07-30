@@ -1,4 +1,4 @@
-**Offertest API Scheduler**
+**Offertest On Demand API Tester**
 ----
   API to test on demand your offers from your 3rd party platform ( Affise / Axonite / HasOffers / Orangegear ).
 
@@ -154,13 +154,6 @@
 
   | Features          | Description |
   | ------------- |-------------|
-  | VIRUS_SCAN | For each url in the chain from the beginning to the end will be check for viruses/malware. |
-  | POSTBACK_ON_CHANGE | Postbacks and Emails will only be sent in case of a change on the campaign output test |
-  | STATUS_CODE_CHECK | Checks if the last link / landing page is a dead link (ex: 4xx, 5xx, ... ) |
-  | AUTO_DL | Checks if the last link / landing page auto downloads  |
-  | LAST_DOMAIN_MATCH | Given an expectedResult checks if the last link matches the domain  |
-  | BUNDLE_ID | In case of CPI offer test and given an expectedResult runs for iTunes or Play Store app verifications  |
-  | SEND_MAIL | To send mail report after the test is done. The mail address will be the one defined on the Mobrand's console users profile  |
-  | SEND_POSTBACK | The test result will be postbacked at the specified postback url, or in Affise's case it will auto pause |
+  | SEND_POSTBACK | Auto pause campaigns (Only for Affise / Axonite) |
   | BATCH_MAIL | Send a digest mail report after your batch test is done  |
   | ONLY_ONE_COUNTRY | On campaign ids with multiple countries, it will only test one country  |
