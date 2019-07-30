@@ -80,6 +80,8 @@
   * **Code:** 200 <br />
     **Content:** <br />
 
+    **Json Body**
+
   ```json
     {
         "platform": "HasOffers Integration",
