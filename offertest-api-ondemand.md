@@ -1,6 +1,6 @@
 **Offertest API Scheduler**
 ----
-  API to test on demand your offers from your 3rd party platform ( Affise / Axonite ).
+  API to test on demand your offers from your 3rd party platform ( Affise / Axonite / HasOffers / Orangegear ).
 
 * **URL**
 
@@ -73,7 +73,18 @@
   | ------------- |-------------|
   | apiDomain     | In case you are using AFFISE insert your api domain |
   | apiToken      | API token used to fetch your campaigns  |
+  | networkId      | In case of HasOffers you have to insert your networkId  |
   | redirectSizeLimit      | Adds a limit to the redirect size of a campaign, such that for instance if 10, all campaigns that has a redirect chain of 11 hops or more, will be considered not working, and that will be reflected on the report and also on postback  |
+
+  **Fields Platform Matrix Requirements**
+
+
+  | Platform / Fields | apiDomain | apiToken | networkId |
+  | ------------- |-------------|
+  | AXONITE         | |✓ | | 
+  | AFFISE          |✓ |✓ || 
+  | HASOFFERS       | |✓ |✓ | 
+  | ORANGE_GEAR     |✓ |✓ | | 
 
 * **Success Response:**
   
@@ -136,6 +147,8 @@
   | ------------- |-------------|
   | 1 | AXONITE |
   | 4 | AFFISE |
+  | 5 | HasOffers |
+  | 6 | OrangeGear |
 
 * **Test Features**
 
