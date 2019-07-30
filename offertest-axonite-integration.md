@@ -23,7 +23,6 @@
  
  ![alt text](http://static.mobrand.net/axonate_2.png "")
 
- * On that example the token is - "2ba04a52-0247-4f59-a8e9-c2cb71a106a9"
  * Go to Mobrand's console and on the left menu to go - "OFFERTEST" -> "TOOLS" -> "AXONITE INTEGRATION"
  * Insert the token there as shown on the image below
 
