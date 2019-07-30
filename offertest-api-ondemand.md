@@ -81,41 +81,41 @@
     **Content:** <br />
 
   ```json
-{
-    "platform": "HasOffers Integration",
-    "platformId": 5,
-    "numberOfOffers": 3,
-    "numberUniqueOffers": 3,
-    "platformOffers": [
-        {
-            "id": "86708035-0d40-42f5-b807-9f938023b723",
-            "offerId": "11111111",
-            "name": "Amazon India Online Shopping and Payments",
-            "url": "http://www.track.example.com/aff_c?offer_id=11111111&aff_id=3026",
-            "country": "ae",
-            "platform": "ANDROID",
-            "iconUrl": ""
-        },
-        {
-            "id": "95f05f7b-7df4-465e-a7da-c7062c5231a1",
-            "offerId": "222222",
-            "name": "Dostavista_Ru_iOS_Non-Incent_CPA",
-            "url": "http://www.track.example.com/aff_c?offer_id=222222&aff_id=3026",
-            "country": "ru",
-            "platform": "IPHONE",
-            "iconUrl": ""
-        },
-        {
-            "id": "8a3934f3-8cc5-4079-801a-d89940b6488b",
-            "offerId": "33333",
-            "name": "NNNOW - Online Fashion Shopping App",
-            "url": "http://www.track.example.com/aff_c?offer_id=33333&aff_id=3026",
-            "country": "in",
-            "platform": "ANDROID",
-            "iconUrl": ""
-        }
-    ]
-}
+    {
+        "platform": "HasOffers Integration",
+        "platformId": 5,
+        "numberOfOffers": 3,
+        "numberUniqueOffers": 3,
+        "platformOffers": [
+            {
+                "id": "86708035-0d40-42f5-b807-9f938023b723",
+                "offerId": "11111111",
+                "name": "Amazon India Online Shopping and Payments",
+                "url": "http://www.track.example.com/aff_c?offer_id=11111111&aff_id=3026",
+                "country": "ae",
+                "platform": "ANDROID",
+                "iconUrl": ""
+            },
+            {
+                "id": "95f05f7b-7df4-465e-a7da-c7062c5231a1",
+                "offerId": "222222",
+                "name": "Dostavista_Ru_iOS_Non-Incent_CPA",
+                "url": "http://www.track.example.com/aff_c?offer_id=222222&aff_id=3026",
+                "country": "ru",
+                "platform": "IPHONE",
+                "iconUrl": ""
+            },
+            {
+                "id": "8a3934f3-8cc5-4079-801a-d89940b6488b",
+                "offerId": "33333",
+                "name": "NNNOW - Online Fashion Shopping App",
+                "url": "http://www.track.example.com/aff_c?offer_id=33333&aff_id=3026",
+                "country": "in",
+                "platform": "ANDROID",
+                "iconUrl": ""
+            }
+        ]
+    }
   ```
  
 * **Error Response:**
