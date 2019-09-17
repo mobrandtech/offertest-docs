@@ -29,7 +29,7 @@
   
   /:userid/api/platforms/ondemand/:platformid
 
-  * **ContentType:** application/json <br />
+  * **ContentType:** application/json
 
   ```json
     {
@@ -88,8 +88,8 @@
 
 * **Success Response:**
   
-  * **Code:** 200 <br />
-    **Content:** <br />
+  * **Code:** 200
+    **Content:**
 
     **Json Body**
 
@@ -133,12 +133,12 @@
  
 * **Error Response:**
 
-  * **Code:** 401 UNAUTHORIZED <br />
+  * **Code:** 401 UNAUTHORIZED
     **Content:** NONE
 
   OR
 
-  * **Code:** 400 BADREQUEST <br />
+  * **Code:** 400 BADREQUEST
     **Content:** NONE
 
 * **PlatformID**

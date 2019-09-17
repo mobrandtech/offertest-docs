@@ -250,7 +250,7 @@ Response for Sync Request. For the Async Request this object will be sent as POS
   
   /:userid/api/platforms/ondemand/:platformid
 
-  * **ContentType:** application/json <br />
+  * **ContentType:** application/json
 
   ```json
     {
@@ -309,8 +309,8 @@ Response for Sync Request. For the Async Request this object will be sent as POS
 
 * **Success Response:**
   
-  * **Code:** 200 <br />
-    **Content:** <br />
+  * **Code:** 200
+    **Content:**
 
     **Json Body**
 
@@ -354,12 +354,12 @@ Response for Sync Request. For the Async Request this object will be sent as POS
  
 * **Error Response:**
 
-  * **Code:** 401 UNAUTHORIZED <br />
+  * **Code:** 401 UNAUTHORIZED
     **Content:** NONE
 
   OR
 
-  * **Code:** 400 BADREQUEST <br />
+  * **Code:** 400 BADREQUEST
     **Content:** NONE
 
 * **PlatformID**

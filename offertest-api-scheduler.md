@@ -38,7 +38,7 @@
   
   **/offertest/:userid/scheduler/campaign**
 
-  * **ContentType:** application/json <br />
+  * **ContentType:** application/json
 
   ```json
   [
@@ -78,7 +78,7 @@
   ```
   **/offertest/:userid/scheduler/campaign/:campaignid**
 
-  * **ContentType:** application/json <br />
+  * **ContentType:** application/json
 
   ```json
     {
@@ -114,17 +114,17 @@
 
 * **Success Response:**
   
-  * **Code:** 204 <br />
+  * **Code:** 204
     **Content:** NONE
  
 * **Error Response:**
 
-  * **Code:** 401 UNAUTHORIZED <br />
+  * **Code:** 401 UNAUTHORIZED
     **Content:** NONE
 
   OR
 
-  * **Code:** 400 BADREQUEST <br />
+  * **Code:** 400 BADREQUEST
     **Content:** NONE
 
 * **Test Features**
