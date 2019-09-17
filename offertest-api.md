@@ -310,9 +310,8 @@ Response for Sync Request. For the Async Request this object will be sent as POS
 * **Success Response:**
   
   * **Code:** 200
-    **Content:**
 
-    **Json Body**
+    **Content:** **Json Body**
 
   ```json
     {
@@ -355,11 +354,13 @@ Response for Sync Request. For the Async Request this object will be sent as POS
 * **Error Response:**
 
   * **Code:** 401 UNAUTHORIZED
+
     **Content:** NONE
 
   OR
 
   * **Code:** 400 BADREQUEST
+
     **Content:** NONE
 
 * **PlatformID**

@@ -115,16 +115,19 @@
 * **Success Response:**
   
   * **Code:** 204
+
     **Content:** NONE
  
 * **Error Response:**
 
   * **Code:** 401 UNAUTHORIZED
+
     **Content:** NONE
 
   OR
 
   * **Code:** 400 BADREQUEST
+
     **Content:** NONE
 
 * **Test Features**
