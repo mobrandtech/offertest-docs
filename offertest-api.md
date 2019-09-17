@@ -369,8 +369,8 @@ Response for Sync Request. For the Async Request this object will be sent as POS
   | ------------- |-------------|
   | 1 | AXONITE |
   | 4 | AFFISE |
-  | 5 | HasOffers |
-  | 6 | OrangeGear |
+  | 5 | HASOFFERS |
+  | 6 | ORANGEGEAR |
 
 * **Test Features**
 
