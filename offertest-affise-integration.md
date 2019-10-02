@@ -59,7 +59,7 @@
 
 #### Test One Country Per Offer
 
- * When an offer has multiples countries/geos, by default offertest will test all countries, and o be considered broken, all tests from all the countries the offer has, have to be broken.
+ * When an offer has multiples countries/geos, by default offertest will test all countries, and too be considered broken, all tests from all the countries the offer has, have to be broken.
  * One way to test only one country is to enable the feature ***Test One Country Per Offer*** and henceforth only one shall be tested and evaluated. 
 
 ### Where to find, or create, your API Token 
