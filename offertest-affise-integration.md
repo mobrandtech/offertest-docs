@@ -56,6 +56,12 @@
     * Status: "active" if PASS
  * Which means that offertest can reactivate a campaign if it is "stopped"
 
+
+#### Test One Country Per Offer
+
+ * When an offer has multiples countries/geos, by default offertest will test all countries, and o be considered broken, all tests from all the countries the offer has, have to be broken.
+ * One way to test only one country is to enable the feature ***Test One Country Per Offer*** and henceforth only one shall be tested and evaluated. 
+
 ### Where to find, or create, your API Token 
 
  * Go to your Affise's platform and follow steps on the screenshots below
