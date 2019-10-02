@@ -40,9 +40,9 @@
 #### Rules
 
  * Rules allow you to auto stop campaigns on certain conditions you may wish for instance, you don't want to run campaigns that have a redirect chain higher than 6, and want them paused.
- * At the moment the only rule we have available is the MaxNumberOfRedirects, which considers that an offer shall not have a redirect chain higher than a limit.
+ * At the moment the only rule we have available is the ***Redirect Size Limit***, which considers that an offer shall not have a redirect chain higher than a limit.
  * For illustration purpose consider the following different scenarios:
-    * Let's say that we have campaign A and a MaxNumberOfRedirects=6
+    * Let's say that we have campaign A and a ***Redirect Size Limit***=6
     * If after the test campaign A ***Leads To App Store*** and has ***Number Of Redirects*** of 6 then ***Rule Result*** will be PASS
     * If after the test campaign A ***Leads To App Store*** and has ***Number Of Redirects*** of 5 then ***Rule Result*** will be PASS
     * If after the test campaign A ***Leads To App Store*** and has ***Number Of Redirects*** of 3 then ***Rule Result*** will be PASS
