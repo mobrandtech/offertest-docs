@@ -13,6 +13,7 @@
  * The API token can be Sales Manager or ADMIN, if you wish to use status filter or advertiser filter it has to be ADMIN token.
  * After the test on your campaigns is done, you can select to either, send an email containing a report with all the information regarding your campaigns, or to auto pause non leading App Store campaigns, or both. 
  * Choosing the email report, will only get you the information about your campaigns and no changes will be done to them.
+ * If you have testing time periods configured it will enable automatic testing, and it will run on the specified testing times.
  
 #### Email Report
 
