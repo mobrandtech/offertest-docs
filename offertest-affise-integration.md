@@ -34,9 +34,9 @@
     * ***Last Broken Date*** ( Last time it was broken )
     * ***Number Of Redirects/Hops*** ( Number of Redirects the campaign has )
     * ***Number Of Brokens*** ( Number of times the result is broken since the first time it was tested )
-    * ***Number Of Greens*** ( Number of times the result is green since the first time it was tested )a
+    * ***Number Of Greens*** ( Number of times the result is green since the first time it was tested )
     * ***Redirect Domains*** ( Contains the chain redirection of the campaign  )
-     
+
 #### Rules
 
  * Rules allow you to auto stop campaigns on certain conditions you may wish for instance, you don't want to run campaigns that have a redirect chain higher than 6, and want them paused.
@@ -59,7 +59,7 @@
 
 #### Test One Country Per Offer
 
- * When an offer has multiples countries/geos, by default offertest will test all countries, and too be considered broken, all tests from all the countries the offer has, have to be broken.
+ * When an offer has multiples countries/geos, by default offertest will test all countries, and to be considered broken, all tests from all the countries the offer has, have to be broken.
  * One way to test only one country is to enable the feature ***Test One Country Per Offer*** and henceforth only one shall be tested and evaluated. 
 
 ### Where to find, or create, your API Token 
