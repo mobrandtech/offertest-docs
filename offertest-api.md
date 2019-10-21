@@ -14,7 +14,7 @@
 
 ### Example Body
 
-``{"userid":"{YOURUSERID}", "country":"us", "url":"http://www.google.pt/", "platform": "android", "callback":"http://{YOURAPIURL}/offertest/{YOURCAMPAIGNID}/result"}``
+``{"userid":"{YOURUSERID}", "country":"us", "url":"http://www.google.pt/", "platform": "android", "callback":"http://yourexampleurl.com/offertest/examplecampaignid/result"}``
 
 ## Example cURL request
 
@@ -29,6 +29,10 @@
 ## Authorization Header
 
 ``Authorization: Bearer {APIKEY}``
+
+## Code Samples
+
+You can find multiple language projects and more details [here](https://github.com/mobrandtech/offertest-docs/tree/master/examples)
 
 ## Credits
 
