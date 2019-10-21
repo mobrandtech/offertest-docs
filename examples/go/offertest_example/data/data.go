@@ -17,13 +17,10 @@ const (
 	// Replace Below fields with your data
 	// CHECK https://www.mobrand.com/console/offertest/tools/integration/ for auth token (jwt)
 	AUTH_TOKEN = "[AUTH_TOKEN]"
-	USER_ID            = "[YOUR_USER_ID]"
+	USER_ID    = "[YOUR_USER_ID]"
 	// Should be your API Endpoint
 	// On how to build a simple server to receive postbacks, have a look at the "server.go" example
-	EXAMPLE_CALLBACK	= "http://api.example.com/result"
-
-
-
+	EXAMPLE_CALLBACK = "http://api.example.com/result"
 )
 
 // For a description on what are the available platforms check the page below

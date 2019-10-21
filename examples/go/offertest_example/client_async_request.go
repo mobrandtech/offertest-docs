@@ -12,6 +12,7 @@ import (
 
 func asyncRequest() {
 	// On Async CALLBACK is Mandatory
+	// We suggest using ngrok (https://ngrok.com/) to test links locally. The CALLBACK_URL must be accessible from Internet.
 	asyncRequest := data.NewAsyncOffertestRequest(data.USER_ID, data.URL_TEST, data.COUNTRY_TEST, data.ANDROID, data.EXAMPLE_CALLBACK)
 	requestBody, err := json.Marshal(asyncRequest)
 

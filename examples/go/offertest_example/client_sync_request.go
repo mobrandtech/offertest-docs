@@ -46,6 +46,7 @@ func syncRequestWithExpectedBundleId() {
 	json.Unmarshal(body, &payload)
 	log.Println("JsonBodyParsed.\n", payload)
 
+	// It will be always false false if not set on request
 	log.Println("ExpectedBundleId - " + strconv.FormatBool(payload.BundleMatch))
 }
 
