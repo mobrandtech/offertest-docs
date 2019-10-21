@@ -79,6 +79,18 @@ func NewExpectedBundleIdOffertestRequest(userId string, url string, country stri
 	return request
 }
 
+// Minimal necessary data on async request with a check on the identifier/app of the store
+func NewAsyncExpectedBundleIdOffertestRequest(userId string, url string, country string, platform string, expectedBundleId string, callback string) OffertestRequest {
+	request := OffertestRequest{}
+	request.UserId = userId
+	request.URL = url
+	request.Country = country
+	request.Platform = platform
+	request.ExpectedBundleId = expectedBundleId
+	request.Callback = callback
+	return request
+}
+
 type RedirectChain struct {
 	URL         string `json:"url"`
 	Code        int32  `json:"code,omitempty"`
