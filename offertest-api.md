@@ -30,6 +30,10 @@
 
 ``Authorization: Bearer {APIKEY}``
 
+## Code Samples
+
+You can find multiple language projects and more details [here](https://github.com/mobrandtech/offertest-docs/tree/master/examples)
+
 ## Credits
 
 Each request, depending on the features or target you enable will consume credits according to the table below.
