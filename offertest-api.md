@@ -32,7 +32,7 @@
 
 ## Code Samples
 
-You can find multiple language projects and more details [here](https://github.com/mobrandtech/offertest-docs/tree/master/examples)
+You can find multiple language projects and more details [here]. (https://github.com/mobrandtech/offertest-docs/tree/master/examples)
 
 ## Credits
 
