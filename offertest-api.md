@@ -21,7 +21,7 @@
 ### Async Request
 ``https://api.offertest.net/offertest[?async=true]``
 
-`` curl -i -H "Authorization: Bearer {APIKEY}" -X POST -d '{"userid":"{YOURUSERID}", "country":"us", "url":"http://www.google.com/","platform": "android", "callback":"http://{YOURAPIURL}/offertest/{YOURCAMPAIGNID}/result"}' -H "Content-type: application/json" https://api.offertest.net/offertest?async=true ``
+`` curl -i -H "Authorization: Bearer {APIKEY}" -X POST -d '{"userid":"{YOURUSERID}", "country":"us", "url":"http://www.google.com/","platform": "android", "callback":"http://yourexampleurl.com/offertest/examplecampaignid/result"}' -H "Content-type: application/json" https://api.offertest.net/offertest?async=true ``
 
 ### Sync Request
 `` curl -i -H "Authorization: Bearer {APIKEY}" -X POST -d '{"userid":"{YOURUSERID}", "country":"us", "url":"http://www.google.com/","platform": "android" }' -H "Content-type: application/json" https://api.offertest.net/offertest ``
@@ -32,7 +32,7 @@
 
 ## Code Samples
 
-You can find multiple language projects and more details [here]. (https://github.com/mobrandtech/offertest-docs/tree/master/examples)
+You can find multiple language projects and more details [here](https://github.com/mobrandtech/offertest-docs/tree/master/examples).
 
 ## Credits
 
