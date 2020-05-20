@@ -226,7 +226,7 @@ Response example
 |Field|Value|
 |-|-|
 |id|Our request id|
-|url|the chain url|
+|urls|the chain url|
 |bundleIdMatch|true if the expectedBundleId matches the final URL bundle id (Works only for iTunes or Play Store). It will always be false if you don't set the expectedBundleId on request |
 |nRedir| The number of redirects|
 |screenshotUrl| The URL of the screenshot if requested.|
