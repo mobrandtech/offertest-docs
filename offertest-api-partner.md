@@ -38,7 +38,7 @@ therego may offer some insight.
 | Field         | Value         |
 | ------------- |-------------|
 | userid        | Your partner ID. |
-| subUserId        | Your publisherid. |
+| subUserId        | Your client Id from your platform or in other words the patner's client Id. |
 | country       | An ISO 2 country code. |
 | url | The URL you want to test. |
 | userAgent | The User Agent to test with **(Optional)**. |
