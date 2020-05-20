@@ -239,7 +239,7 @@ Response example
   endpoint will return HTTP 429 code.
 
 * Each partner's client can do at most 5 free tests, after that the endpoint
-  will return HTTP 308 code to Mobrand's register page where the client can buy a package
+  will return HTTP 302 code to Mobrand's register page where the client can buy a package
   and continue using, on the partner's platform with the client's API token.
 
 
