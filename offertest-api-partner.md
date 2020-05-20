@@ -220,7 +220,8 @@ Response example
     ],
     "bundleIdMatch": false,
     "nRedir": 2
-}```
+}
+```
 
 |Field|Value|
 |-|-|
