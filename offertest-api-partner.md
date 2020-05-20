@@ -48,6 +48,7 @@ therego may offer some insight.
 | mobile | Request through a mobile carrier. Possible values: ``true`` or ``false`` **(Optional)** . |
 | carrier | Select one pair of the table below (it should match the given country or it will be ignored) **(Optional)**. If ``carrier`` is omited the exit mobile carrier will be automatically selected for the country. Example: ``att``. |
 | city | Select one city value from this file [csv](https://raw.githubusercontent.com/mobrandtech/offertest-docs/cities/cities.csv) (it should match the given country or an error will return) **(Optional)** **(Consumes Additional Credits)**. If ``city`` is omited the exit city will be automatically selected for the country. Example: ``lasvegas``. |
+| screenshot | If ``true`` a screenshot of the final URL will be taken. **(Optional)** **(Consumes Additional Credits)**. Possible values: ``true`` or ``false``. |
 
 
 
@@ -227,5 +228,6 @@ Response example
 |url|the chain url|
 |bundleIdMatch|true if the expectedBundleId matches the final URL bundle id (Works only for iTunes or Play Store). It will always be false if you don't set the expectedBundleId on request |
 |nRedir| The number of redirects|
+|screenshotUrl| The URL of the screenshot if requested.|
 
 
