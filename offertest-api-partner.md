@@ -230,4 +230,16 @@ Response example
 |nRedir| The number of redirects|
 |screenshotUrl| The URL of the screenshot if requested.|
 
+### Details on the response
+
+#### Limits
+
+* Each partner can do 50 concurrent tests at a given instance, after that the
+  endpoint will return HTTP 429 code.
+
+* Each partner's client can do at most 5 free tests, after that the endpoint
+  will return HTTP 308 code to Mobrand's register page where the client can buy a package
+  and continue using, on the partner's platform with the client's API token.
+
+
 
