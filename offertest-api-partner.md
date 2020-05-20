@@ -203,7 +203,7 @@ If you need a carrier that is not in the list please send an email to support@mo
 
 Response example
 
-``
+```
 {
     "id": "d6d880e6-09b5-48f5-9e91-74f4cd9670dd",
     "urls": [
@@ -220,7 +220,7 @@ Response example
     ],
     "bundleIdMatch": false,
     "nRedir": 2
-}``
+}```
 
 |Field|Value|
 |-|-|
